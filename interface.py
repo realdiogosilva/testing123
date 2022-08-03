@@ -9,8 +9,7 @@ from urllib.request import Request, urlopen
 import ssl
 import urllib.request
 
-app = Flask(__name__)
 
 @app.route('/')
 def mainidea():
-    return render_template('HOME.html')
+    return render_template('frontpage.html')
